@@ -1,10 +1,107 @@
-progress { font-size: 70px;} 
+progress { font-size: 110px;} 
 progress { margin-left: 50px;} 
 progress { margin-right: 50px;}
 progress { margin-top: 50px;} 
-progress {
-   -webkit-appearance: none;
+
+body {
+	background-color: #FFFFFF;
 }
-progress::-webkit-progress-bar-value {
-  -webkit-appearance: none;
-  background: orangered;}
+
+.base {
+	height: 1000px;
+    width: 90%;
+    margin: auto;
+    background-color: #2c2c2c;
+    
+    padding: 0 10px;
+}
+
+.team_cop {
+	border-style: solid;
+	width: 240px;
+	height: 80px;
+	border-radius: 8px;
+	border-color: #7f7f7f;
+	border-width: 1px;
+	line-height: 0.6;
+	background-color: #454545;
+	font-family: Arial;
+	font-size: 16px;
+	color: #868686;
+	
+	position: absolute;
+	
+	margin-top: 600px;
+	left: 50%;
+	margin-left: -600px;
+	
+	text-align: left;
+}
+
+
+.team_terr {
+	border-style: solid;
+	width: 240px;
+	height: 80px;
+	border-radius: 8px;
+	border-color: #7f7f7f;
+	border-width: 1px;
+	line-height: 0.6;
+	background-color: #454545;
+	font-family: Arial;
+	font-size: 16px;
+	color: #868686;
+	
+	position: absolute;
+	
+	margin-top: 600px;
+	right: 50%;
+	margin-right: -600px;
+	
+	text-align: left;
+}
+
+
+.cls { 
+	margin-left: 9px;
+}
+
+#first {
+	margin-top: 7px;
+	margin-left: 4px;
+}
+
+.txt
+{
+	float: right;
+    text-align: right;
+	margin-right: 4px;
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	background-color: #FF0000;
+	color: #000000;
+}
+
+#txt1 {
+	background-color: #ff9e25;
+	color: #000000;
+}
+
+.txtt {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.buttons {
+	text-align: center;
+	margin-top: 700px;
+}
+
+#progress {
+	height: 10%;
+	width: 90%;
+	margin-left: 85px;
+	
+}
