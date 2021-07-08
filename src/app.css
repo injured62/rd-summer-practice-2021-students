@@ -7,5 +7,4 @@ progress {
 }
 progress::-webkit-progress-bar-value {
   -webkit-appearance: none;
-  background: orangered;
-}
+  background: orangered;}
