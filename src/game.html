@@ -101,5 +101,14 @@ go8L3N2Zz4="/>
 <!--    })();-->
 
 <!--</script>-->
+<progress id="progress" value="0" max="100" style="width:1800px;"></progress>
+<script>
+function getProgress(){
+if(document.getElementById('progress').value>=document.getElementById('progress').max) return false;
+document.getElementById('progress').value++;
+setTimeout(getProgress,600);
+}
+getProgress();
+</script>
 </body>
 </html>
